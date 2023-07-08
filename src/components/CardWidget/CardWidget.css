@@ -1,0 +1,17 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.carrito{
+color: rgb(255, 255, 255);
+font-size: 40px;
+position: absolute;right: 15px; top: 10px;
+
+
+
+}
