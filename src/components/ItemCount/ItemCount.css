@@ -11,17 +11,24 @@ display: flex;
 width: 200px;
 border-radius: 5px;
 color: rgb(0, 0, 0);
-padding: 20px;
-border: 5px solid;
+padding-left: 112px;
+padding-top: 10px;
+text-align: center;
+font-size: 15px;
+
 
 }
 
 .boton{
     display: flex;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     align-items: center;
     padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 10px;
+    align-items: center;
     
     
 }

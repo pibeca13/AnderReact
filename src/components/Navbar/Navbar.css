@@ -13,7 +13,8 @@
     display: flex;
     background-color: rgb(156, 156, 156);
     padding: 50px;
-    justify-content: space-around;  
+    justify-content: flex-end;
+    text-decoration: none;  
     
 }
 
@@ -27,7 +28,7 @@
     display: flex;
     width: 200px;
     height: auto;
-    
+    text-decoration: none;
     position: absolute; left: 5px; top: 2px;   
 }
 
@@ -35,13 +36,15 @@
 
 display: flex;
 padding: 10px;
-align-items: center; 
+align-items: center;
+text-decoration: none; 
 
 }
 
 .textos{
-    padding: 150px;
+    padding: 100px;
     color: aliceblue;
     font-size: 20px;
+    text-decoration: none;
 }
 
