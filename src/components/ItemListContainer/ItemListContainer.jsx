@@ -1,39 +1,28 @@
 import { useState, useEffect } from "react";
 import getData, {getCategoryData} from "../../services/asyncMock";
 import "../ItemListContainer/ItemListContainer.css";
-import Item from "../Item/Item";
+import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 
 
-function ItemListContainer(props){
+function ItemListContainer(){
 
     const [products, setProducts] = useState ([]);
     const { categoryId } = useParams();
-    
-    async function requestProducts(){
-
-        let respuesta = [];
-        if(categoryId === undefined) {
-            respuesta = await getData();
-        }
-        else {
-            
-            respuesta = await getData(categoryId );
-        }
-        setProducts (respuesta);
-    }
-
+       
     useEffect(() =>{
-        requestProducts();
-    },[]);   
+        async function requestProducts(){
+            let respuesta = categoryId
+              ? await getCategoryData(categoryId)
+              : await getData();
+              setProducts (respuesta);
+            }
+
+            requestProducts();
+        },[categoryId]);        
     
     return (
-    <div>
-        <p className="bienvenido">{props.text}</p> 
-        {products.map((item) => (
-        <Item key={item.id} {...item} />
-        ))}         
-    </div>      
+    <ItemList products ={products}/>     
               
     );
   }
