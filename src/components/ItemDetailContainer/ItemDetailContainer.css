@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.contendorDetail{
+width: 70%;
+height: 110%;
+padding: 3%;
+margin-left: 15%;
+margin-top: 5%;   
+display: flex;
+border: 5px solid;color: rgb(17, 17, 17);
+border-radius: 15px;
+justify-content: space-between;
+
+
+}
+
+.imagenDetail{
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+    
+}
+
+.tarjetita{
+    
+    height: auto;
+    display: inline-block;   
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;color: rgb(17, 17, 17);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px; 
+     
+}
+
+.titulo1{
+    font-size: 40px;
+    
+}
+
+.titulo2{
+    font-size: 30px;
+    
+}
+
+
+
+.parrafo{
+    font-size: 20px;
+    
+}
+
+.contadorDatail{
+    
+   width: 100%;
+   position: relative;
+    
+}

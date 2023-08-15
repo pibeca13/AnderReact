@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contendorAnimacion{
+    display: contenedor-flex;
+    overflow: hidden;
+}
+
+.ContenderRedes{
+    padding: 15px;
+    background-color: rgb(138, 138, 138);
+    margin-top: 70px;
+}
+
+.redes{
+    
+    margin-left: 45%;
+}
+
+.animacion{
+
+    width: 400%;
+    height: auto;
+    
+
+    animation-name: galeriaPrincipal;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;       
+    
+    }
+
+
+
+@keyframes galeriaPrincipal {
+0% {transform: translate(0);}   
+100% {transform: translate(-50%);}
+}

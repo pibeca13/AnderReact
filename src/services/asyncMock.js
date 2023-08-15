@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const products = [
 
     {
@@ -24,7 +26,7 @@ const products = [
         precio: 99.99,
         descripcion: "Teclado mecánico con retroiluminación RGB",
         stock: 20,
-        imagen:"https://i.ibb.co/2Z5fg7B/3.png",
+        imagen:"https://i.ibb.co/Chsn5qq/jj.png",
         categoria:"teclados"
     },
 
@@ -78,7 +80,7 @@ const products = [
         id: 9,
         nombre: "Auriculares Bluetooth",
         precio: 49.99,
-        descripcio: "Auriculares inalámbricos con cancelación de ruido",
+        descripcion: "Auriculares inalámbricos con cancelación de ruido",
         stock: 18,
         imagen:"https://i.ibb.co/2srQTx8/9.png",
         categoria:"accesorios"
@@ -107,7 +109,7 @@ const products = [
         precio: 89.99,
         descripcion: "Altavoces portátiles Bluetooth, batería de larga duración",
         stock: 14,
-        imagen:"https://i.ibb.co/ch5cXZR/12.png",
+        imagen:"https://i.ibb.co/fdk6TMt/22.png",
         categoria:"accesorios"
     },
     {
@@ -134,7 +136,7 @@ const products = [
         precio: 349.99,
         descripcion: "Procesador de 8 núcleos, frecuencia base de 3.6GHz",
         stock: 4,
-        imagen:"https://i.ibb.co/QcFfZvV/Procesador-INTEL-CORE-i7-13500-K.jpg",
+        imagen:"https://i.ibb.co/5xH81sB/image.jpg",
         categoria:"procesadores"
     },
     {
@@ -219,3 +221,6 @@ export function getCategoryData(categoriaURL) {
 }
 
 export default getData;
+
+
+

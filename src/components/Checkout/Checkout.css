@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.conten{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.formulario{
+
+    
+    width: 70%;
+    background-color: rgb(161, 161, 161);
+    text-align: center; 
+    padding: 40px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;  
+ 
+}
+
+.placeHolder{
+    width: 40%;
+    height: 35px;
+    border-radius: 10px;
+    
+}
+
+.botonConfirmacion{
+    width: 40%;
+    height: 25px;
+}
+

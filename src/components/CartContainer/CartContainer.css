@@ -1,0 +1,81 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cartCompra{
+    width: 60%;
+    display: flex;
+    border: 5px solid;color: rgb(17, 17, 17);
+    border-radius: 15px; 
+    margin-top: 4%;
+    margin-left: 20%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cont{
+    
+    padding: 20px;
+    font-size: 20px;
+}
+
+.imagenCart{
+    width: 300px;
+}
+
+.botonEliminar{
+    width: 200px; 
+    height: 30px;   
+    align-items: center;
+    margin: 25px;   
+    
+}
+
+.titularCarrito{
+
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+.carritoVacio{
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 38%;
+}
+.carritoTexto{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.botonCompra{
+    width: 20%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+    margin-left: 40%;
+    
+}
+
+
+
+.botonCompra:hover{
+    background-color: rgb(255, 0, 0);
+   
+    
+}
+
+.botonSubrrallado{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
